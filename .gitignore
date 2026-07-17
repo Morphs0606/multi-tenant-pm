@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets — NEVER commit these
+.env
+
+# IDE / editor
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build / test artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
